@@ -28,31 +28,91 @@
           <span class="offer-lite">then $20/mo. thereafter</span>
         </p>
         <form class="form" method="get" novalidate>
-          <input
-            type="text"
-            id="first-name"
-            name="first-name"
-            placeholder="First Name"
-          />
+          <div class="input-line">
+            <input
+              type="text"
+              id="first-name"
+              name="first-name"
+              placeholder="First Name"
+            />
+            <svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+              </g>
+            </svg>
+          </div>
+          <p class="error-text">First name cannot be empty</p>
           <br />
-          <input
-            type="text"
-            id="last-name"
-            name="last-name"
-            placeholder="Last Name"
-          /><br />
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Email Address"
-          /><br />
-          <input
-            type="password"
-            id="password"
-            name="password"
-            placeholder="Password"
-          /><br />
+          <div class="input-line">
+            <input
+              type="text"
+              id="last-name"
+              name="last-name"
+              placeholder="Last Name"
+            /><svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+              </g>
+            </svg>
+          </div>
+          <p class="error-text">Last name cannot be empty</p>
+          <br />
+          <div class="input-line">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email Address"
+            /><svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+              </g>
+            </svg>
+          </div>
+          <p class="error-text">Looks like this is not an email</p>
+          <br />
+          <div class="input-line">
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Password"
+            /><svg
+              width="24"
+              height="24"
+              xmlns="http://www.w3.org/2000/svg"
+              class="hidden"
+            >
+              <g fill="none" fill-rule="evenodd">
+                <circle fill="#FF7979" cx="12" cy="12" r="12" />
+                <rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1" />
+                <rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1" />
+              </g>
+            </svg>
+          </div>
+          <p class="error-text">Passwords can not be empty</p>
+          <br />
           <button class="btn">Claim your free trial</button>
           <p class="terms">
             By clicking the button, you are agreeing to our
