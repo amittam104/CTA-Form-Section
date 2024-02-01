@@ -75,6 +75,8 @@ body {
   padding: 4rem;
   border-radius: 0.9rem;
   box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
 }
 
 .form input {
@@ -144,10 +146,81 @@ body {
 
 .error-text {
   color: hsl(0, 100%, 74%);
-  margin-left: 31rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  font-style: italic;
   margin-bottom: 1.3rem;
+  align-self: flex-end;
 }
 
 .hidden {
   display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 375px) {
+  body {
+    height: 100%;
+    background-image: url(images/bg-intro-mobile.png);
+  }
+
+  .container {
+    height: 100%;
+    flex-direction: column;
+    gap: 4rem;
+    margin: 5rem 2rem;
+    transform: translate(0, 0);
+    max-width: 100%;
+  }
+
+  .description-section {
+    width: 100%;
+  }
+
+  .header {
+    font-size: 2.8rem;
+    text-align: center;
+    line-height: 1.4;
+  }
+  .description-text {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.8;
+  }
+
+  .form-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .offer,
+  .btn {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .offer {
+    padding: 2.1rem 6rem 2.1rem 6rem;
+    line-height: 1.7;
+    margin-bottom: 2.8rem;
+  }
+
+  .form {
+    padding: 2.4rem;
+  }
+
+  .btn {
+    font-size: 1.4rem;
+    padding: 2.1rem 4rem 2rem 4rem;
+  }
+
+  .terms {
+    margin-bottom: 0.8rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    line-height: 1.8;
+    font-size: 1.2rem;
+  }
 }
