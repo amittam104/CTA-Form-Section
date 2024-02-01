@@ -10,13 +10,16 @@ html {
 }
 
 body {
+  height: 100vh;
   font-family: "Poppins", sans-serif;
   line-height: 1;
   font-weight: 400;
   color: #fff;
-  height: 100vh;
   background-image: url(images/bg-intro-desktop.png);
   background-color: hsl(0, 100%, 74%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .container {
@@ -24,8 +27,8 @@ body {
   align-items: center;
   justify-content: center;
   gap: 4rem;
-  margin: 50vh auto;
-  transform: translate(0, -50%);
+  /* margin: 50% auto; */
+  /* transform: translate(0, -50%); */
   max-width: 118rem;
 }
 
