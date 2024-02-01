@@ -126,6 +126,7 @@ body {
   border: none;
   margin-bottom: 2.2rem;
   box-shadow: 0 4px 0 rgba(53, 140, 102, 0.795);
+  cursor: pointer;
 }
 
 .terms {
